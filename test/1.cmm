@@ -1,0 +1,42 @@
+int a;
+int b = 1;
+int c, d=b&a;
+
+int e, f;
+
+int scope(int a, int b, int c) {
+    int d;
+    {
+	int e;
+    }
+}
+
+int t_if(int a) {
+    int x,y;
+    if(x == y) {
+	int z;
+	{}
+    }else if (x >y){
+    int d;
+    }else if (x <y){
+    int xx;
+    }else{
+         int xx;
+    }
+}
+
+int t_while() {
+    int x = 0;
+
+    while(x < 5) {
+	int y = 0;
+	x=x+1;
+    }
+
+    return x;
+}
+
+int main(int b){
+    e = (5 + 6) * ~7 + (2 && 2 && 0);
+    f = 3;
+}
